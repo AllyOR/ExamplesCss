@@ -10,7 +10,7 @@
 .star {
 	top: 30%;
 	left: 45%;
-	width: 10px;
+	width: 0px;
 	height: 100px;
 	position: absolute;
 	border-left: solid 100px transparent;
@@ -47,3 +47,13 @@
 	transform: rotateZ(-70deg);
 }
 
+.circle{
+	background: blue;
+	width: 220px;
+	height: 220px;
+	position: absolute;
+	left: 42%;
+	top: 32%;
+	border-radius: 300px;
+	box-shadow: 0px 0px 0px 50px rgba(255,1,1,0.5);
+}
