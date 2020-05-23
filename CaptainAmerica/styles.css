@@ -1,12 +1,15 @@
-.background{
+.background {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	background: rgb(12,22,60); /*slateblue;*/
+	background-color: rgb(12,22,60);
 	width: 100%;
-	height: 100%
+	height: 100%;
+	font-size: 25px;
+	color: white;
 }
 
+/*set the star by 3 triangles*/
 .star {
 	top: 30%;
 	left: 45%;
@@ -19,7 +22,7 @@
 	transform: rotateZ(35deg);
 }
 
-.star:before{
+.star:before {
 	position: absolute;
 	display: block;
 	content: '';
@@ -33,7 +36,7 @@
 	transform: rotateZ(-35deg);
 }
 
-.star:after{
+.star:after {
 	position: absolute;
 	display: block;
 	content: '';
@@ -47,7 +50,8 @@
 	transform: rotateZ(-70deg);
 }
 
-.circle{
+/*set the nearest circle to the star*/
+.circle {
 	background: rgb(0,0,180);
 	width: 220px;
 	height: 220px;
@@ -58,7 +62,8 @@
 	box-shadow: 0px 0px 0px 50px rgb(255,20,32);
 }
 
-.circle_back{
+/*set the further circles of the shield*/
+.circle_back {
 	background: white;
 	width: 420px;
 	height: 420px;
